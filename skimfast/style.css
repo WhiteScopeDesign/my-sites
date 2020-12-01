@@ -104,13 +104,12 @@ body {
   border-radius: 0.5px;
 }
 #navigation.navbar {
-  background-color: rgba(0, 0, 0, 1) !important;
+  background-color: rgba(0, 0, 0, 0.7) !important;
 }
 
 #navigation .navbar-nav {
   text-transform: uppercase;
   font-weight: 700;
-  color: yellow;
 }
 #navigation .navbar-nav .nav-link {
   color: white;
@@ -254,14 +253,17 @@ body {
 }
 
 #testimonial-carousel .carousel-press-image {
-  width: 7%;
+  width: 18%;
   border-radius: 0%;
-  margin: 20px;
+  margin: 50px 0;
+  margin-right: 10px;
 }
 #testimonial-carousel .carousel-press-image2 {
-  width: 15%;
+  width: 35%;
   border-radius: 0%;
-  margin: 20px;
+
+  margin: 50px 0px;
+  margin-right: 10px;
 }
 
 .carousel-item {
@@ -337,22 +339,11 @@ body {
 }
 
 /* ---------- contact icon hover and focused start ------------------ */
-#contact .contact-item:hover {
-  opacity: 55%;
+#contact .contact-item:hover i {
+  opacity: 75%;
+  color: white;
 }
 
-#contact .open {
-  color: #027e85;
-  display: inline-block;
-}
-
-#contact .clicked-link:focus .open {
-  color: green;
-}
-#contact .open {
-  color: #027e85;
-  display: inline-block;
-}
 /* ------------ contact icon hover and focused end ----------------- */
 
 /* ------------- footer start ------------------------------------ */
@@ -385,25 +376,25 @@ body {
   /* ------- main landing page start --------------550-- */
   #heading .whiteCircle {
     background-color: white;
-    width: 1.7rem;
-    height: 1.7rem;
+    width: 1.3rem;
+    height: 1.3rem;
     border-radius: 50%;
     display: inline-block;
-    margin: 0px 10px;
+    margin: 0px 5px;
     border: 1px solid rgba(0, 0, 0, 0.2);
   }
   #heading .blueCircle {
     background-color: #027e85;
-    width: 1.7rem;
-    height: 1.7rem;
+    width: 1.3rem;
+    height: 1.3rem;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.2);
     display: inline-block;
   }
   #heading .uprightline {
     width: 3px;
-    height: 1.7rem;
-    margin-right: 5px;
+    height: 1.3rem;
+    margin-right: 2px;
     padding-left: 0;
     margin-left: 0;
     box-shadow: 3px 2px 3px 1px rgba(0, 0, 0, 0.2);
@@ -415,8 +406,8 @@ body {
   #heading .headingText {
     font-family: "PT Sans", sans-serif;
     font-weight: 700;
-    font-size: 2.3rem;
-    letter-spacing: 1rem;
+    font-size: 1.8rem;
+    letter-spacing: 0.5rem;
     color: white;
 
     text-shadow: 2px 2px 5px black;
@@ -429,6 +420,49 @@ body {
     font-weight: 700;
   }
   /* ------------ main landing page end ---------------------------- */
+
+  /* ------------------ nav bar start -------------------------------*/
+
+  #navigation .navbar-brand {
+    font-family: "PT Sans" sans-serif;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px black;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+  #navigation .whiteCircleMini {
+    background-color: white;
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 3px;
+    padding-left: 0;
+    margin-right: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  #navigation .blueCircleMini {
+    background-color: #027e85;
+    width: 0.7rem;
+    height: 0.7rem;
+    margin-left: 3px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: inline-block;
+  }
+  #navigation .uprightlineMini {
+    width: 0.1rem;
+    height: 0.7rem;
+    margin-right: 3px;
+    padding-left: 0;
+    margin-left: 5px;
+    box-shadow: 3px 2px 3px 1px rgba(0, 0, 0, 0.2);
+    background-color: #027e85;
+    display: inline-block;
+    border-radius: 0.5px;
+  }
+
+  /* ------------------ nav bar end --------------------------------- */
 
   /* ------- about us start ---------------------------------------- */
   #aboutUs .heading-text {
@@ -466,6 +500,17 @@ body {
     font-size: 2rem;
     letter-spacing: 0.3rem;
   }
+  #testimonials .press-image {
+    width: 60%;
+    margin-top: 10%;
+    margin-bottom: 1rem;
+  }
+  #testimonials .press-image2 {
+    width: 80%;
+    margin-top: 30%;
+    margin-bottom: 3.3rem;
+    padding: 3% 0;
+  }
 
   #testimonials .carousel-text {
     font-size: 1rem;
@@ -475,14 +520,15 @@ body {
     font-size: 0.6rem;
   }
   #testimonials .carousel-press-image {
-    width: 15%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    width: 18%;
+    padding: 0 0;
+    margin: 20px 0;
+    margin-right: 5px;
   }
   #testimonials .carousel-press-image2 {
-    width: 25%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    width: 35%;
+    margin: 20px 0;
+    margin-right: 5px;
   }
 
   /* ---------- testimonials end -------------------------------- */
@@ -502,6 +548,7 @@ body {
   #contact .heading-text {
     font-size: 2rem;
     letter-spacing: 0.3rem;
+    margin-bottom: 50px;
   }
   #contact i.fa-9x {
     font-size: 5em;
@@ -563,6 +610,49 @@ body {
   }
   /* ------------ main landing page end ---------------------------- */
 
+  /* ------------------ nav bar start -------------------------------*/
+
+  #navigation .navbar-brand {
+    font-family: "PT Sans" sans-serif;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px black;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+  #navigation .whiteCircleMini {
+    background-color: white;
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 3px;
+    padding-left: 0;
+    margin-right: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  #navigation .blueCircleMini {
+    background-color: #027e85;
+    width: 0.7rem;
+    height: 0.7rem;
+    margin-left: 3px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: inline-block;
+  }
+  #navigation .uprightlineMini {
+    width: 0.1rem;
+    height: 0.7rem;
+    margin-right: 3px;
+    padding-left: 0;
+    margin-left: 5px;
+    box-shadow: 3px 2px 3px 1px rgba(0, 0, 0, 0.2);
+    background-color: #027e85;
+    display: inline-block;
+    border-radius: 0.5px;
+  }
+
+  /* ------------------ nav bar end --------------------------------- */
+
   /* ------- about us start ---------------------------------------- */
   #aboutUs .heading-text {
     font-size: 2rem;
@@ -599,6 +689,17 @@ body {
     font-size: 2rem;
     letter-spacing: 0.3rem;
   }
+  #testimonials .press-image {
+    width: 60%;
+    margin-top: 10%;
+    margin-bottom: 1rem;
+  }
+  #testimonials .press-image2 {
+    width: 80%;
+    margin-top: 30%;
+    margin-bottom: 3.3rem;
+    padding: 3% 0;
+  }
 
   #testimonials .carousel-text {
     font-size: 1rem;
@@ -608,14 +709,15 @@ body {
     font-size: 0.6rem;
   }
   #testimonials .carousel-press-image {
-    width: 15%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    width: 18%;
+    padding: 0 0;
+    margin: 25px 0;
+    margin-right: 5px;
   }
   #testimonials .carousel-press-image2 {
-    width: 25%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    width: 35%;
+    margin: 25px 0;
+    margin-right: 5px;
   }
 
   /* ---------- testimonials end -------------------------------- */
