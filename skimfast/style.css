@@ -1,6 +1,11 @@
 body {
   font-family: "PT Sans", sans-serif;
 }
+#navigation .navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+}
 /* ----------- main landing page text start ---------- */
 #heading .container {
   width: 100%;
@@ -114,13 +119,29 @@ body {
 #navigation .navbar-nav .nav-link {
   color: white;
 }
-#navigation .navbar-nav .nav-link.active,
-#navigation .navbar-nav .nav-link:hover {
+#navigation .navbar-nav .nav-link.active {
   color: #027e85;
 }
 #navLogo {
   letter-spacing: 0.4rem;
 }
+
+#navigation .navbar-toggler {
+  border-color: white !important;
+  border-width: 1px;
+}
+#navigation .icon {
+  color: white;
+}
+#navigation .icon-colored {
+  color: #027e85;
+}
+
+#navigation .navbar-toggler[aria-expanded="true"] {
+  border-color: #027e85 !important;
+  border-width: 2px;
+}
+
 /* -----------  navigation end -------------- */
 
 /* ----------- about us start --------------- */
@@ -420,6 +441,7 @@ body {
 
 @media screen and (min-width: 350px) and (max-width: 576px) {
   /*---------------------small phones up to screen size 576px wide ----------------------------------- */
+
   /* ------- main landing page start ---------------- */
   #heading .whiteCircle {
     background-color: white;
@@ -848,31 +870,30 @@ body {
 /* ------------------------------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------- */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
-  /* --------------------------- about us start ----------------------- */
+/* --------------------------- about us start ----------------------- */
 
-  #aboutUs .press-logo {
-    width: 12%;
-    margin: 10px 10px 25px;
-  }
-
-  /* --------------------------- about us end --------------------------- */
-  /* ---------- ----------------testimonials start ---------------------- */
-
-  #testimonials .press-image {
-    width: 55%;
-    margin-top: 10%;
-    margin-bottom: 1rem;
-  }
-  #testimonials .press-image2 {
-    width: 75%;
-    margin-top: 30%;
-    margin-bottom: 3.3rem;
-    padding: 3% 0;
-  }
-
-  /* ----------------------- testimonials end ---------------------------- */
+#aboutUs .press-logo {
+  width: 12%;
+  margin: 10px 10px 25px;
 }
+
+/* --------------------------- about us end --------------------------- */
+/* ---------- ----------------testimonials start ---------------------- */
+
+#testimonials .press-image {
+  width: 55%;
+  margin-top: 10%;
+  margin-bottom: 1rem;
+}
+#testimonials .press-image2 {
+  width: 75%;
+  margin-top: 30%;
+  margin-bottom: 3.3rem;
+  padding: 3% 0;
+}
+
+/* ----------------------- testimonials end ---------------------------- */
+
 /* ------------------------------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------- */
