@@ -127,19 +127,19 @@ body {
 }
 
 #navigation .navbar-toggler {
-  border-color: white !important;
+  border-color: white;
   border-width: 1px;
 }
 #navigation .icon {
   color: white;
 }
-#navigation .icon-colored {
-  color: #027e85;
-}
 
 #navigation .navbar-toggler[aria-expanded="true"] {
   border-color: #027e85 !important;
   border-width: 2px;
+}
+#navigation .navbar-toggler[aria-expanded="true"] .icon {
+  color: #027e85 !important;
 }
 
 /* -----------  navigation end -------------- */
