@@ -418,6 +418,7 @@ body {
   color: white;
   font-weight: 700;
   font-size: 0.8rem;
+  padding-top: 15px;
   letter-spacing: 0.1rem;
 }
 #footer .sub-text {
