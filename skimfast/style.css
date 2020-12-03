@@ -371,7 +371,7 @@ body {
 /* ---------- contact icon hover and focused start ------------------ */
 #contact .contact-item:hover i {
   opacity: 75%;
-  color: white;
+  color: rgb(7, 209, 7);
 }
 
 /* ------------ contact icon hover and focused end ----------------- */
@@ -403,7 +403,8 @@ body {
 }
 
 #opportunities i:hover {
-  color: #034447;
+  opacity: 95%;
+  color: rgb(7, 209, 7);
 }
 /* ------------------ opportunities end ---------------------------- */
 
