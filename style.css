@@ -1,0 +1,31 @@
+#landing .image {
+  background-image: url(./images/try2.jpg);
+  width: 100vw;
+  max-width: 100%;
+  background-size: cover;
+  height: 700px;
+  background-position: center;
+  padding: 0 0;
+}
+#skills .container-fluid {
+  margin: 5% 0;
+}
+#skills .skill-item {
+  padding-top: 50px;
+}
+#skills .fa-bootstrap {
+  color: #7952b3;
+}
+#skills .fa-js-square {
+  color: yellow;
+}
+#skills .fa-html5 {
+  color: #e44d26;
+}
+#skills .fa-css3 {
+  color: #0f5298;
+}
+/* #skills .fa-star,
+.fa-star-half-alt {
+  color: #ffd700;
+} */
